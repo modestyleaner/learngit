@@ -108,8 +108,13 @@ git is free software !
 	 创建+切换分支： git checkout -b <name>
 	 合并某分支到当前分支： git merge <name>
 	 删除分支： git branch -d <name>
-	 这里 是在master 分支上创建的 
-	 这里创建一个feature1 的分支
+	
+	
+	  在合并过程中可能遇到冲突，则需要手动修改冲突，然后，进行提交 
+	  
+	  使用git log --graph 进行 分支合并图查看
+	  
+	  
 	 
 	 
 	 
