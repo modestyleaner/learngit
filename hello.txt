@@ -21,3 +21,10 @@ git is free software !
    git diff 可以查看修改了，但是并未提交的内容
    
   git log 查看历史更改记录  q 退出记录列表
+  
+  git reset --hard HEAD^ 退回到上次修改
+				   HEAD^^ 退回到上2次修改
+				   HEAD~20 退回到上20次修改
+				   
+				   34a32f  或者直接使用commit id 进行回退
+				   
