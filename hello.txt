@@ -1,0 +1,3 @@
+hello ,this is the first git file 
+
+git is very easy to learn !!!
