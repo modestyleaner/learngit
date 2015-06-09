@@ -1,3 +1,14 @@
 hello ,this is the first git file 
 
 git is very easy to learn !!!
+
+git is free software !
+
+下面是简单的git笔记：
+
+1 创建一个git库
+   在一个合适的目录，最好没有中文字符：
+     git init
+	 该命令会生成一个默认隐藏的.git 文件夹，最好不要改动里面的东西
+	 
+	 
