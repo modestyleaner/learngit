@@ -97,7 +97,7 @@ git is free software !
 	切换到master分支上  git checkout master
 	
 	发现方才更改的内容没有。
-	使用 git merge dev  会将dev的内容合并到 master 分支上
+	使用 git merge dev  会将dev的内容合并到 master 分支上 ，使用的是Fast forward 模式
 	
 	
 	
