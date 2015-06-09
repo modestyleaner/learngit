@@ -92,6 +92,13 @@ git is free software !
 	该命令会将所有的分支都列出来
 	
 	
+	然后进行一些内容的更改并提交到dev分支上
+	
+	切换到master分支上  git checkout master
+	
+	发现方才更改的内容没有。
+	使用 git merge dev  会将dev的内容合并到 master 分支上
+	
 	  
 	  
 	
