@@ -113,7 +113,7 @@ git is free software !
 	  在合并过程中可能遇到冲突，则需要手动修改冲突，然后，进行提交 
 	  
 	  使用git log --graph 进行 分支合并图查看
-	  
+	  创建了一个新的分支dev，切换到该dev
 	  
 	 
 	 
