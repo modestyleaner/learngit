@@ -11,4 +11,8 @@ git is free software !
      git init
 	 该命令会生成一个默认隐藏的.git 文件夹，最好不要改动里面的东西
 	 
-	 
+2 添加文件到git仓库分2步：
+   <1> git add filename
+   <2> git commit -m "descriptinong about the change"
+   
+   git status 改命令用来查看当前的状态
