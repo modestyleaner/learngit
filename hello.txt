@@ -57,11 +57,44 @@ git is free software !
 	 
 	 
 5 远程仓库
+
+    <1>先有了本地库，后又了远程库的时候，如何关联远程库：
+	
 	git remote add origin git@github.com:modestyleaner/learngit.git
 	git push -u origin master  第一次关联 ，加-u ，以后就不需要了
 	
 	之后本地进行了修改内容，提交以后，使用：
 	git push origin master 
+	
+	<2> 从0开始，先创建远程库，然后从远程库克隆
+	  在github上创建一个新的库，勾选创建一个readme文件
+	  
+	  这样远程库已经准备好了，下面进行远程库的克隆：
+	  git clone git@github.com:modestyleaner/gitskills.git
+	  
+	  注意： 远程库地址可以是ssh协议，也可以是https协议，其缺点是速度慢，而且每次推送必须
+	  输入口令
+	  
+	  
+6 分支管理
+
+	在版本回退里，每次提交，git都把它们串成一条时间线，该时间线就是一条分支。
+	目前为止，只有一条分支，在git里，该分支为主分支。即master分支。HEAD严格来说，不是
+	指向提交，而是指向master，master才是只想提交的。所以HEAD指向的就是当前分支。
+	
+	git checkout -b dev   创建一个分支dev，并切换到dev分支上
+	
+	该命令即一下2条命令：
+	git branch dev
+	git checkout dev
+	
+	切换后，使用 git branch 查看当前的分支
+	该命令会将所有的分支都列出来
+	
+	
+	  
+	  
+	
 	
 
    	
