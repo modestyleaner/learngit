@@ -20,3 +20,4 @@ git is free software !
    git status 改命令用来查看当前的状态   
    git diff 可以查看修改了，但是并未提交的内容
    
+  git log 查看历史更改记录  q 退出记录列表
