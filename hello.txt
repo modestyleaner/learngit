@@ -110,6 +110,9 @@ git is free software !
 	 删除分支： git branch -d <name>
 	 这里 是在master 分支上创建的 
 	 
+	 这里创建一个feature1 的分支
+	 
+	 
 	 
 	
 	  
