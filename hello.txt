@@ -122,6 +122,16 @@ git is free software !
 
    当需要临时修改一个bug，但是还有缓存区的内容没有提交，此时，使用stash功能，保存现场，
    再bug修复之后，然后进行现场恢复
+   
+   在进行修复以后，然后使用：
+    git stash list 查看工作现场是否存在
+	然后使用：
+	git stash apply 恢复，但是stash内容没有删除，需要使用 git stash drop 来删除
+	
+	或者直接使用： git stash pop  恢复的同时，删除stash内容
+	
+	如果有多个stash ，则可以指定恢复到具体的现场
+	git stash  pop stash@{0} 
 	
 
 	 
