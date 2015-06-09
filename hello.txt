@@ -28,3 +28,15 @@ git is free software !
 				   
 				   34a32f  或者直接使用commit id 进行回退
 				   
+				   
+  git reflog 打印了历史的命令记录，如果想要会回到最新的更改，但是commit id忘记了，可以使用该记录，进行查找
+  
+4 工作区和暂存区的概念
+
+  工作区： learngit 文件夹就是一个工作区，不包含其中的.git文件夹
+  版本库： .git 隐藏目录 代表git的版本库
+  暂存区：  git add 后的内容会提交到暂存区
+  
+  
+  
+				   
