@@ -16,3 +16,5 @@ git is free software !
    <2> git commit -m "descriptinong about the change"
    
    git status 改命令用来查看当前的状态
+   
+   git diff 可以查看修改了，但是并未提交的内容
